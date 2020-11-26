@@ -11,5 +11,5 @@
 # to kill it manually, run "kill *pid*" where *pid* is the ID
 
 chmod +x _c_pull.sh
-nohup node index.js & disown > /dev/null 2>&1 & echo $! > greenlight.pid
+nohup node index.js & disown > /dev/null & echo $(($!-1)) > greenlight.pid
 echo "Greenlight is running"
