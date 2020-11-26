@@ -19,7 +19,7 @@ if [ -d .git ]; then
         git commit -m "GREENLIGHT: Automated Push"
         echo "Stashed. Pulling latest version..."
         git pull --rebase 
-        git push origin master
+        git push origin main
     fi
 else 
     echo "This does not appear to be a git repo."
