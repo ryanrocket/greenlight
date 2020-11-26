@@ -13,6 +13,7 @@ cd ..;
 if [ -d .git ]; then
     if git diff-index --quiet HEAD --; then
         echo "This repo is already on the latest working commit."
+        git pull --rebase
     else
         echo "Current version is outdated! Pushing changes..."
         git add -A 
