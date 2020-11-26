@@ -1,0 +1,3 @@
+-(function() {
+    // chmod needed scripts 
+})();
