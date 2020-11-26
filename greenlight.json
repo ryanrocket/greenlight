@@ -1,0 +1,7 @@
+{
+    "cron": "0 4 * * *",
+    "update": [
+        "kill *procid*",
+        "nohup node app.js & disown > out.pid"
+    ]
+}
