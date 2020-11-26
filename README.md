@@ -21,4 +21,4 @@ restart the web server with the new updates applies to it by defining your updat
 - This creates a new nohup process and stores its process ID to be killed later on
 
 <br><br>
-<sub><sup>COPYRIGHT (C) 2020 RYAN WANS DEVELOPMENT</sup></sub>
+<sub>COPYRIGHT (C) 2020 RYAN WANS DEVELOPMENT</sub>
