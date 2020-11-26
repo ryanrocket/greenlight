@@ -1,6 +1,13 @@
 # greenlight
 Automated git management for web servers
 
+## How Greenlight Works
+Greenlight polls the git commit that the web server is currently running and the one that is most recent on the same branch. If it sees that the web server is outdated, it will automatically store
+the current data and pull the newest commit from that branch.
+<br>
+If the end user defines a propper `greenlight.json`, you can use a cron interval to automatically
+restart the web server with the new updates applies to it by defining your update commands.
+
 ## How To Use Greenlight
 - Ensure you are in your webserver directory
 - Clone this repository: `git clone https://github.com/ryanrocket/greenlight.git`
