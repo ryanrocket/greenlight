@@ -11,7 +11,8 @@ report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
 # Runtime data
 pids
-*.pid
+# Allow pid files for greenlight
+# *.pid
 *.seed
 *.pid.lock
 
