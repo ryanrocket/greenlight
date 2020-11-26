@@ -1,5 +1,5 @@
 # Greenlight
-### Automated Git Management for Web Servers
+### <i>Automated Git Management for Web Servers</i>
 
 ## How Greenlight Works
 Greenlight polls the git commit that the web server is currently running and the one that is most recent on the same branch. If it sees that the web server is outdated, it will automatically store
