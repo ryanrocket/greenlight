@@ -19,3 +19,5 @@ restart the web server with the new updates applies to it by defining your updat
 - To start Greenlight, change directories into greenlight and run `sh run.sh`
 - To stop Greenlight, make sure your'e in the greenlight directory and run `sh kill.sh`
 - This creates a new nohup process and stores its process ID to be killed later on
+
+<p style="font-size:13px;text-transformation:uppercase;color:gray;">Copyright (C) 2020 Ryan Wans Development</p>
